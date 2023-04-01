@@ -1,0 +1,21 @@
+<header>
+  <h3><a href="/">Tasks</a></h3>
+
+  <ul>
+    <% if(user){%>
+    <li>
+      <a href="/"> <%= user.name%> </a>
+    </li>
+    <li>
+      <a href="/users/signout">Sign Out</a>
+    </li>
+    <%}else{%>
+    <li>
+      <a href="/users/login">Sign In</a>
+    </li>
+    <li>
+      <a href="/users/signup"> Sign Up</a>
+    </li>
+    <%}%>
+  </ul>
+</header>

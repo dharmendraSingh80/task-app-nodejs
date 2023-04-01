@@ -1,0 +1,42 @@
+h3,
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.create-task-form {
+    margin: 20px;
+    text-align: center;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+.edit-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-form input,
+.edit-form select {
+    display: block;
+    /* text-align: center; */
+    margin: 10px;
+}
+
+.edit-btn {
+    margin: 10px;
+}
